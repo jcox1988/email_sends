@@ -1,7 +1,7 @@
 <html>
 	<body>
   		<p>Hello {0},</p><br>
-            	<p>You can find your newly assigned prospects below. If you have any questiosn or would like any changes made, please contact us at dashard@uchicago.edu.</p><br>
+            	<p>You can find your newly assigned prospects below. If you have any questiosn or would like any changes made, please contact us at internal@email.com.</p><br>
             	{1}
             	<br><p>Thanks,</p>
             	<p>Prospect Management</p>
