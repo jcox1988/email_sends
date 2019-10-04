@@ -22,7 +22,7 @@ def send_email(sender, recipient, subject, message, **kwargs):
             to_list.append(address)
     #TODO: Attachments
     msg.attach(MIMEText(message, 'html'))
-    mailServer = smtplib.SMTP('mail.smtp2go.com',587)
+    mailServer = smtplib.SMTP('smtp_server',587)
     mailServer.starttls()
     mailServer.login(sender, 'email_password')
     text = msg.as_string()
