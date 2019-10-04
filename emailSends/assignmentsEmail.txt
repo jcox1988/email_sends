@@ -1,0 +1,10 @@
+<html>
+	<body>
+  		<p>Hello {0},</p><br>
+            	<p>You can find your newly assigned prospects below. If you have any questiosn or would like any changes made, please contact us at dashard@uchicago.edu.</p><br>
+            	{1}
+            	<br><p>Thanks,</p>
+            	<p>Prospect Management</p>
+		<p style="color:blue;font-size:9px;">This message and its contents are confidential. If you received this message in error, do not use or rely upon it. Instead, please inform the sender and then delete it. Thank you.</p>
+        </body>
+</html>
