@@ -46,4 +46,4 @@ for urm, assignment in urmAssignments.items():
     message = message.format(firstName, assignment.to_html(index=False))
     
     # Send the email to the current URM 
-    send_email('sender', email, 'Newly Assigned Prospects', message, cc=['cc_addresses'])
+    send_email(sender='sender', recipient=email, subject='Newly Assigned Prospects', message=message, cc=['cc_addresses'])
